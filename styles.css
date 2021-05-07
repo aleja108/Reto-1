@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 200%;
+    height: 20px;
+    background-size:cover;
+    background: url(../images/Marie.jpg);
+    background: position 400px;
+    background-repeat: no-repeat;
+    background-color: lightpink;
+    
+}
+.cab_nav{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    position: fixed;
+    top: 0px;
+}
+.cab_nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+    color: rgb(133, 155, 54);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+
+}
+.cab_nav ul li a{
+    text-decoration: none;
+    color: rgb(223, 86, 36);
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nombre_Pagina{
+width: 330px;
+padding: 0px 20px;
+float: left;
+position: relative;
+top:5%;
+left: 2%;
+color:rgb(19, 9, 5);
+font-size: 30px;
+}
+
+.imagen.img{
+ width: 70px;
+position: absolute;
+transform: translateX(-1520%)translateY(-15%);
+
+}
+.contenedor{
+width: 80%;
+margin: 0%;
+display:inline-block
+position: absolute;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 25px 10px;
+border-radius: 10px;
+}
+.titulo_cont{
+font-size: 40px;
+text-align: center;
+padding: 30px 10px;
+}
+.parrafo_cont{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
